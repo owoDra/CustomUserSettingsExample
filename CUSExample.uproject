@@ -1,12 +1,25 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
 		{
 			"Name": "CustomUserSettings",
 			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": false
+		},
+		{
+			"Name": "MegascansPlugin",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		}
 	]
 }
